@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Sorteio de Bingo</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sorteio de Bingo</h1>
+        
+        <!-- Número sorteado em tamanho grande -->
+        <div>
+            <h2>Número Sorteado:</h2>
+            <p class="numero-grande" id="numero-sorteado">-</p>
+        </div>
+        
+        <!-- Botão para sortear números -->
+        <button class="azul" onclick="realizarSorteio()">Sortear Número</button>
+        
+        <!-- Botão para resetar o bingo -->
+        <button class="vermelho" onclick="resetarBingo()">Resetar Bingo</button>
+        
+        <!-- Últimos 5 números sorteados -->
+        <div>
+            <h2>Últimos 5 Números Sorteados:</h2>
+            <ul class="ultimos-numeros" id="ultimos-numeros">
+                <!-- Este conteúdo será preenchido dinamicamente pelo JavaScript -->
+            </ul>
+        </div>
+        
+        <!-- Todos os números sorteados -->
+        <div>
+            <h2>Todos os Números Sorteados:</h2>
+            <ul class="todos-numeros" id="todos-numeros">
+                <!-- Este conteúdo será preenchido dinamicamente pelo JavaScript -->
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Script JavaScript -->
+    <script src="./script.js"></script>
+</body>
+</html>

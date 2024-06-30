@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("bingo.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.numero-grande {
+    font-size: 3em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.azul {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.vermelho {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.ultimos-numeros {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.ultimos-numeros li {
+    font-size: 1.5em;
+    margin: 0 5px;
+    background-color: #6c757d;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.todos-numeros {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.todos-numeros li {
+    display: inline-block;
+    font-size: 1em;
+    margin: 0 5px;
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
